@@ -1,0 +1,128 @@
+
+------------------------------------------------------------------------
+   Yhaplo 2.1.14.dev12+gfc0aab729 | Y-chromosome haplogroup caller
+      Command: yhaplo -i YRI_males_chrY.vcf.gz -o yri_haplogroups --all_aux_output
+      Log:     yri_haplogroups/log.YRI_males_chrY.txt
+------------------------------------------------------------------------
+
+Mode: VCF
+
+
+Primary tree
+
+Loaded primary tree topology:
+    yhaplo.data.tree: y.tree.primary.2016.01.04.nwk
+
+Wrote aligned tree with YCC labels:
+    yri_haplogroups/y.tree.primary.aligned.ycc.2016.01.04.nwk
+
+
+Variant names
+
+Loaded preferred SNP names
+   674 SNP names: preferred.snp_names.txt
+
+Loaded representative SNPs
+  1764 Haplogroups in: representative.SNPs.isogg.2015_tree.txt
+  1582 Haplogroups with at least one ISOGG-designated representative SNP
+  1627 SNPs, as some haplogroups have more than one representative
+  2166 SNP names, including aliases
+    25 Additional representative SNPs loaded from: representative.SNPs.additional.txt
+  2191 Total SNP names
+
+
+ISOGG Corrections
+
+     2 isogg.correct.name.txt
+    85 isogg.correct.mutation.txt
+     9 isogg.correct.position.txt
+
+   118 total corrections, including aliases
+
+
+ISOGG variant data
+
+Loaded ISOGG SNP data:
+    yhaplo.data.variants: isogg.2016.01.04.txt
+
+      20903 SNPs loaded
+        118 Corrected based on:
+            isogg.correct.name.txt
+            isogg.correct.mutation.txt
+            isogg.correct.position.txt
+
+    -  3825 SNPs Dropped
+              147 Flagged as not meeting quality guidelines
+             1377 Tree location approximate
+             1846 Removed, flagged as provisional, or otherwise problematic
+              188 Non-SNPs
+               33 Excluded as multiallelic based on: isogg.multiallelic.txt
+                1 Duplicated names
+              233 Explicitly excluded based on:
+                  isogg.omit.name.txt
+                  isogg.omit.bad.txt
+                  isogg.omit.bad.23andMe.txt
+                  isogg.omit.branch.conflict.txt
+                  isogg.omit.branch.conflict.23andMe.v5.txt
+    -     1 Bad lines
+    = 17077 SNPs retained
+
+    -  3509 Alternative names
+    = 13568 Unique SNPs added to the tree
+
+    Wrote summary tables:
+    - Dropped:  yri_haplogroups/isogg.snps.dropped.2016.01.04.txt
+    - Retained: yri_haplogroups/isogg.snps.cleaned.2016.01.04.txt
+    - Unique:   yri_haplogroups/isogg.snps.unique.2016.01.04.txt
+
+
+Tree output
+
+Wrote tree with YCC labels:
+    yri_haplogroups/y.tree.ycc.2016.01.04.nwk
+
+Wrote tree with representative-SNP labels:
+    yri_haplogroups/y.tree.hg_snp.2016.01.04.nwk
+
+Wrote aligned tree with YCC labels:
+    yri_haplogroups/y.tree.aligned.ycc.2016.01.04.nwk
+
+Wrote aligned tree with representative-SNP labels:
+    yri_haplogroups/y.tree.aligned.hg_snp.2016.01.04.nwk
+
+
+Genotypes
+
+Loading genotypes from variant-major VCF/BCF file:
+    YRI_males_chrY.vcf.gz
+
+
+Haplogroups
+
+          52 assigned
+           0 assigned to root haplogroup: A
+
+
+Output
+
+Wrote called haplogroups:
+    yri_haplogroups/haplogroups.YRI_males_chrY.txt
+
+Wrote counts of ancestral and derived alleles encountered:
+    yri_haplogroups/counts.anc_der.YRI_males_chrY.txt
+
+Wrote paths with counts of derived SNPs observed:
+    yri_haplogroups/paths.YRI_males_chrY.txt
+
+Wrote lists of derived SNPs on path:
+    yri_haplogroups/derived.snps.YRI_males_chrY.txt
+
+Wrote detailed information about each derived SNP on path:
+    yri_haplogroups/derived.snps.detail.YRI_males_chrY.txt
+
+Wrote lists of ancestral SNPs encountered in search:
+    yri_haplogroups/ancestral.snps.YRI_males_chrY.txt
+
+Wrote detailed information about each ancestral SNP encountered:
+    yri_haplogroups/ancestral.snps.detail.YRI_males_chrY.txt
+

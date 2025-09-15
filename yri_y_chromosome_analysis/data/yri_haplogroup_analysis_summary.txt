@@ -1,0 +1,34 @@
+
+YRI Y-Chromosome Haplogroup Analysis Summary
+==========================================
+
+Total YRI male samples analyzed: 52
+
+Major Haplogroup Distribution:
+Haplogroup  Count  Frequency  Percentage
+         E     52        1.0       100.0
+
+E Haplogroup Subclades (Level 1):
+E_Subclade_L1  Count  Frequency_in_E  Percentage_in_E
+           E1     51        0.980769        98.076923
+           E2      1        0.019231         1.923077
+
+Most Common YCC Haplogroups:
+YCC_Haplogroup  Count  Frequency  Percentage
+  E1b1a1a1c1a1     16   0.307692   30.769231
+   E1b1a1a1d1a     10   0.192308   19.230769
+    E1b1a1a1d1      8   0.153846   15.384615
+ E1b1a1a1c1a1c      6   0.115385   11.538462
+  E1b1a1a1d1a2      3   0.057692    5.769231
+ E1b1a1a1c1a1d      2   0.038462    3.846154
+      E1a2a1b1      2   0.038462    3.846154
+      E1a2a1a1      1   0.019231    1.923077
+   E1b1a1a1c1a      1   0.019231    1.923077
+     E1a2a1a1a      1   0.019231    1.923077
+
+Key Findings:
+- 52/52 (100.0%) belong to haplogroup E
+- E1b1a1a1 subclades are predominant, consistent with West African ancestry
+- Multiple E1b1a1a1 sublineages present, indicating diverse Y-chromosome lineages
+- Terminal SNPs show fine-scale population structure within YRI
+
