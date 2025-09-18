@@ -160,6 +160,23 @@ For questions or collaborations regarding this analysis, please open an issue in
 **Analysis Version:** 1.0
 **Data Version:** 1000 Genomes Project Phase 3
 
+
+
+## Outputs Preview
+
+![Dashboard](yri_y_chromosome_analysis/visualizations/yri_haplogroup_dashboard.png) 
+![YCC Pie](yri_y_chromosome_analysis/visualizations/yri_ycc_haplogroup_pie_chart.png) 
+![Phylogenetic Tree](yri_y_chromosome_analysis/visualizations/yri_phylogenetic_tree.png)
+
+**Key Tables:**
+- [Major haplogroup frequencies](yri_y_chromosome_analysis/results/yri_major_haplogroup_frequencies.csv)
+- [YCC haplogroup frequencies](yri_y_chromosome_analysis/results/yri_ycc_haplogroup_frequencies.csv)
+- [Terminal SNP frequencies](yri_y_chromosome_analysis/results/yri_terminal_snp_frequencies.csv)
+- [E subclade level 1](yri_y_chromosome_analysis/results/yri_e_subclade_l1_frequencies.csv), [level 2](yri_y_chromosome_analysis/results/yri_e_subclade_l2_frequencies.csv)
+
+**Full Technical Report:** [yri_haplogroup_report.md](yri_y_chromosome_analysis/reports/yri_haplogroup_report.md)
+
+
 ## Notebooks
 
 Interactive Jupyter notebooks are available to reproduce and explore the analysis pipeline:
