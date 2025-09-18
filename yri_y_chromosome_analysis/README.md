@@ -158,3 +158,10 @@ This analysis is released under the MIT License. Data from the 1000 Genomes Proj
 **Data Version:** 1000 Genomes Project Phase 3  
 **Tool Versions:** yhaplo 2.1.14, bcftools 1.13
 
+## Notebooks
+
+Interactive Jupyter notebooks are available to reproduce and explore the analysis pipeline:
+
+- [Notebook 1: Extract YRI Males](../yri_y_chromosome_analysis/notebooks/01_extract_yri_males.ipynb) – transfer sample IDs and prepare input.
+- [Notebook 2: Analyze Haplogroups](../yri_y_chromosome_analysis/notebooks/02_analyze_haplogroups.ipynb) – run haplogroup calling and summary stats.
+- [Notebook 3: Visualize Haplogroups](../yri_y_chromosome_analysis/notebooks/03_visualize_haplogroups.ipynb) – render charts and figures.
