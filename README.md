@@ -160,3 +160,10 @@ For questions or collaborations regarding this analysis, please open an issue in
 **Analysis Version:** 1.0
 **Data Version:** 1000 Genomes Project Phase 3
 
+## Notebooks
+
+Interactive Jupyter notebooks are available to reproduce and explore the analysis pipeline:
+
+- [Notebook 1: Extract YRI Males](yri_y_chromosome_analysis/notebooks/01_extract_yri_males.ipynb) – transfer sample IDs and prepare input.
+- [Notebook 2: Analyze Haplogroups](yri_y_chromosome_analysis/notebooks/02_analyze_haplogroups.ipynb) – run haplogroup calling and summary stats.
+- [Notebook 3: Visualize Haplogroups](yri_y_chromosome_analysis/notebooks/03_visualize_haplogroups.ipynb) – render charts and figures.
